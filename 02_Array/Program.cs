@@ -49,7 +49,7 @@
                 arr[i] = random.Next(10, 50) + random.NextDouble();
             }
 
-          
+
             //int[] arr = [2, 7, 9, 6, 5, 4, 3, 2, 14];
             //for (int i = 0; i < arr.Length; i++)
             //{
@@ -61,8 +61,8 @@
             //PrintArray("Original arr : ", arr);
 
             //ShowArray(100, arr);
-            //ShowArray(200, new int[] { 11,22,33,44,55});
-            //ShowArray(300, 30,40,50,60,70,80,90,100);
+            ShowArray(200, new int[] { 11, 22, 33, 44, 55 });
+            ShowArray(300, 30, 40, 50, 60, 70, 80, 90, 100);
 
 
 
@@ -72,6 +72,7 @@
             ///Array == int[]
             int a ;
             int[] arr = new int[5];
+      )
             arr[0] = 1;
             arr[1] = 2;
             arr[2] = 3;
