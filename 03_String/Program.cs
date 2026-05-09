@@ -117,32 +117,32 @@ namespace _03_String
             {
                 Console.WriteLine("IsNullOrWhiteSpace");
             }
-            */
+            
             // Comparing 2 strings 
             string str1 = "This is test";
-            string str2 = "This is test";
+            string str3 = "This is test";
 
-            if (string.Compare(str1, str2) == 0)
+            if (string.Compare(str1, str3) == 0)
             {
-                Console.WriteLine(str1 + " and " + str2 + " are equal.");
+                Console.WriteLine(str1 + " and " + str3 + " are equal.");
             }
             else
             {
-                Console.WriteLine(str1 + " and " + str2 + " are not equal.");
+                Console.WriteLine(str1 + " and " + str3 + " are not equal.");
             }
 
 
             //String Contains String:
-            string str3 = "This is testing";
-            if (str3.Contains("test"))
+            string str4 = "This is testing";
+            if (str4.Contains("test"))
             {
                 Console.WriteLine("The sequence 'test' was found.");
             }
 
             //Getting a Substring:
-            string str4 = "Last night I dreamt of San Pedro";
-            Console.WriteLine(str4);
-            string substr = str4.Substring(23, 4);
+            string str41 = "Last night I dreamt of San Pedro";
+            Console.WriteLine(str41);
+            string substr = str41.Substring(23, 4);
             Console.WriteLine(substr);
 
 

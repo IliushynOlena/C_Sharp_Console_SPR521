@@ -5,19 +5,14 @@
     {
         //class body
         //c-tor
-        //values
+        //properties
         //methods
     }
-    //private
-    //protected
-    //public
-    //internal
-    //protected internal
-    class Point
+    partial class Point
     {
 
-        //private int number;
-        //private const float PI = 3.14f;
+        private int number;
+        private const float PI = 3.14f;
         //private readonly int Id;
         //public Point()
         //{
@@ -32,7 +27,7 @@
         public int X//value 
         {
             get { return this.x; }
-            set 
+            set
             {
                 if (value > 0)
                     this.x = value;
@@ -41,16 +36,16 @@
             }
         }
         private int y;
-        //propfull + TAB + full property
+        //propfull + TAB --> full property
         //private string name;
-
         //public string Name
         //{
         //    get { return name; }
         //    set { name = value; }
         //}
-        //Auto property ---> prop + TAB
         public string Name { get; set; }
+        //Auto property ---> prop + TAB
+        //public string Name { get; set; }
 
         private decimal salary;
         public decimal Salary//value
@@ -66,9 +61,14 @@
                     salary = 0;
             }
         }
-        public string Color { get; set; }
+        //readonly
+        public string Color { get; } = "Orange";
 
-
+        static int count;
+        static Point()
+        {
+            count = 0;
+        }
 
         public Point() : this(0, 0) { }
         public Point(int x, int y)
@@ -76,33 +76,12 @@
             //setX(x);
             X = x;
             setY(y);
+            count++;
         }
-        public void setX(int newX)
-        {
-            if( newX > 0)
-                 this.x = newX; 
-            else
-                 this.x = 0; 
-        }
-        public void setY(int newY)
-        {
-            if (newY > 0)
-                this.y = newY;
-            else
-                this.y = 0;
-        }
-        public int getX() { return this.x; }  
-        public int getY() { return this.y; }  
+       
         
 
-        public void Print()
-        {
-            Console.WriteLine($"X : {x}. Y : {y}");
-        }
-        public override string ToString()
-        {
-            return $"X : {x}. Y : {y}";
-        }
+       
     }
     class DerivedClass : MyClass//public
     {
@@ -113,7 +92,10 @@
     {
         static void Main(string[] args)
         {
-            Point point = new Point(5,18);  
+            Point point = new Point(5,18);
+            point.X = 55;//setter  int value  = 55;
+            Console.WriteLine(point.X);//getter
+            point.PrintNew();
             point.Print();
             Console.WriteLine(point.ToString());
             point.setX(55);
@@ -124,13 +106,28 @@
             point.X = 555;//setter (value = 555)
             Console.WriteLine(point.X);//getter
 
-            point.Color = "Red";
+            //point.Color = "Red";
             point.Salary = 15000;
 
             Console.WriteLine(point.Color);
             Console.WriteLine(point.Salary);
 
-            Char.IsUpper('a')
+            Char.IsUpper('a');
+        }
+    }
+}
+
+
+namespace _05_IntroToOOP
+{
+    partial class Point
+    {
+        public void PrintNew()
+        {
+            Console.WriteLine($"Color : {Color}");
+            Console.WriteLine($"X : {X}");
+            Console.WriteLine($"Y : {y}");
+        
         }
     }
 }

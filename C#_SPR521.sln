@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_StringBuilder", "04_Stri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_IntroToOOP", "05_IntroToOOP\05_IntroToOOP.csproj", "{BB2EC722-178B-4CB3-A376-080C95153C31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_StructClassRefOutParams", "06_StructClassRefOutParams\06_StructClassRefOutParams.csproj", "{BC02C97E-6BB5-440F-A66D-0AC4FCA69F75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BB2EC722-178B-4CB3-A376-080C95153C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB2EC722-178B-4CB3-A376-080C95153C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB2EC722-178B-4CB3-A376-080C95153C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC02C97E-6BB5-440F-A66D-0AC4FCA69F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC02C97E-6BB5-440F-A66D-0AC4FCA69F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC02C97E-6BB5-440F-A66D-0AC4FCA69F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC02C97E-6BB5-440F-A66D-0AC4FCA69F75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
