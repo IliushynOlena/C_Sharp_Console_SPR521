@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Exeptions", "07_Exeption
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_OverloadOperators", "08_OverloadOperators\08_OverloadOperators.csproj", "{4734EC02-1F88-40D6-87AE-EBA5E73D29C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Inheritance", "09_Inheritance\09_Inheritance.csproj", "{64077CC0-BA59-42E9-BF95-28E0AF24D2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Indexers", "10_Indexers\10_Indexers.csproj", "{A4E5A6DF-BC46-4564-902E-E0621DF0E0A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{4734EC02-1F88-40D6-87AE-EBA5E73D29C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4734EC02-1F88-40D6-87AE-EBA5E73D29C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4734EC02-1F88-40D6-87AE-EBA5E73D29C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64077CC0-BA59-42E9-BF95-28E0AF24D2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64077CC0-BA59-42E9-BF95-28E0AF24D2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64077CC0-BA59-42E9-BF95-28E0AF24D2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64077CC0-BA59-42E9-BF95-28E0AF24D2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E5A6DF-BC46-4564-902E-E0621DF0E0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E5A6DF-BC46-4564-902E-E0621DF0E0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E5A6DF-BC46-4564-902E-E0621DF0E0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E5A6DF-BC46-4564-902E-E0621DF0E0A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
