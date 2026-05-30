@@ -2,8 +2,8 @@
 
 namespace CSharp;
 
- 
-abstract class  Person// : Object
+
+abstract class Person// : Object
 {
     protected string name;
     private readonly DateTime birthdate;
